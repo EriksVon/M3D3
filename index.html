@@ -4,30 +4,32 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-
     <title>MusicBox</title>
 </head>
 
 <body class="bg-dark">
-
-    <nav class="navbar navbar-dark bg-danger sticky-top ">
+    <nav class="navbar navbar-dark bg-danger sticky-top">
         <h1 class="text-warning">Music Box</h1>
-        <button type="button" id="closePlayerButton" class="btn btn-outline-warning">Close Player</button>
     </nav>
+
     <div class="container">
         <main>
-            <h1 class="title text-warning text-center pt-3"> Choose your favourite Album!</h1>
-            <h5 class="text-center text-light">Nulla erat lectus, tempus ut diam gravida, blandit sollicitudin massa.
-                Quisque et
-                massa lacus. Donec faucibus metus a lorem commodo, non consectetur urna porttitor</h5>
+            <div class="container mt-3">
+
+                <h1 class="title text-warning text-center pt-3"> Choose your favourite Album!</h1>
+                <h5 class="text-center text-light">Nulla erat lectus, tempus ut diam gravida, blandit sollicitudin
+                    massa.
+                    Quisque et
+                    massa lacus. Donec faucibus metus a lorem commodo, non consectetur urna porttitor</h5>
+            </div>
 
             <div class="album py-5 bg-dark">
                 <div class="container">
 
                     <div class="row justify-content-center">
+
                         <div class="col-md-4 col-lg-3" style="max-width: 300px;">
                             <div class="card mb-4 box-shadow">
                                 <img class="card-img-top" style="height: 225px; width: 100%; display: block;"
@@ -156,7 +158,7 @@
                             </div>
 
                         </div>
-                        
+
                         <div class="col-md-4 col-lg-3" style="max-width: 300px;">
                             <div class="card mb-4 box-shadow">
                                 <img class="card-img-top" style="height: 225px; width: 100%; display: block;"
@@ -180,147 +182,150 @@
                     </div>
                 </div>
 
-                <footer id="footerSection" class="m-2 bg-light d-none">
-                    <div class="albumDetails row p-5 d-flex align-items-center">
-                        <img src="assets/pink floyd.png" style="width: 40%; height: 40%;">
-                        <div class="details d-flex align-items-center m-4" style="width:40%; height: 40%;">
-                            <ul class="list-unstyled lead">
-                                <li>The Dark Side Of The Moon</li>
-                                <li>Pink Floyd</li>
-                                <li>42:57</li>
-                                <li>Prog Rock</li>
-                            </ul>
+                <footer id="footerSection" class="p-2 bg-light d-none">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-10">
+                                <div class="albumDetails p-2 d-flex align-items-center">
+                                    <img src="assets/pink floyd.png" style="width: 40%; height: 40%;">
+                                    <div class="details d-flex align-items-center m-4" style="width:40%; height: 40%;">
+                                        <ul class="list-unstyled lead">
+                                            <li>The Dark Side Of The Moon</li>
+                                            <li>Pink Floyd</li>
+                                            <li>42:57</li>
+                                            <li>Prog Rock</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <button type="button" id="closePlayerButton" class="btn btn-outline-secondary">Close
+                                    Player</button>
+
+                            </div>
                         </div>
                     </div>
 
+                    <div class="border border-primary row m-1 song align-items-center">
+                        <div class="col-md-1">1</div>
+                        <div class="col-md-3">1:30 min</div>
+                        <div class="col-md-6">Speak to Me</div>
+                        <button type="button" class="col-md-2 btn btn-primary">
+                            </i>Play <i class="bi bi-play"> </i>
+                        </button>
+                    </div>
 
-            <div class="border border-primary row m-1 song align-items-center">
-                <div class="col-md-1">1</div>
-                <div class="col-md-3">1:30 min</div>
-                <div class="col-md-6">Speak to Me</div>
-                <button type="button" class="col-md-2 btn btn-primary">
-                    </i>Play <i class="bi bi-play"> </i>
-                </button>
-            </div>
+                    <div class="border border-primary row m-1 song align-items-center">
+                        <div class="col-md-1">2</div>
+                        <div class="col-md-3">2:43 min</div>
+                        <div class="col-md-6">Breathe</div>
+                        <button type="button" class="col-md-2 btn btn-primary">
+                            <i class="bi bi-play"></i> Play
+                        </button>
+                    </div>
 
-            <div class="border border-primary row m-1 song align-items-center">
-                <div class="col-md-1">2</div>
-                <div class="col-md-3">2:43 min</div>
-                <div class="col-md-6">Breathe</div>
-                <button type="button" class="col-md-2 btn btn-primary">
-                    <i class="bi bi-play"></i> Play
-                </button>
-            </div>
+                    <div class="border border-primary row m-1 song align-items-center">
+                        <div class="col-md-1">3</div>
+                        <div class="col-md-3">3:30 min</div>
+                        <div class="col-md-6">On The Run</div>
+                        <button type="button" class="col-md-2 btn btn-primary">
+                            <i class="bi bi-play"></i> Play
+                        </button>
+                    </div>
 
-            <div class="border border-primary row m-1 song align-items-center">
-                <div class="col-md-1">3</div>
-                <div class="col-md-3">3:30 min</div>
-                <div class="col-md-6">On The Run</div>
-                <button type="button" class="col-md-2 btn btn-primary">
-                    <i class="bi bi-play"></i> Play
-                </button>
-            </div>
+                    <div class="border border-primary row m-1 song align-items-center">
+                        <div class="col-md-1">4</div>
+                        <div class="col-md-3">6:53 min</div>
+                        <div class="col-md-6">Time + Breathe (Reprise)</div>
+                        <button type="button" class="col-md-2 btn btn-primary">
+                            <i class="bi bi-play"></i> Play
+                        </button>
+                    </div>
 
-            <div class="border border-primary row m-1 song align-items-center">
-                <div class="col-md-1">4</div>
-                <div class="col-md-3">6:53 min</div>
-                <div class="col-md-6">Time + Breathe (Reprise)</div>
-                <button type="button" class="col-md-2 btn btn-primary">
-                    <i class="bi bi-play"></i> Play
-                </button>
-            </div>
+                    <div class="border border-primary row m-1 song align-items-center">
+                        <div class="col-md-1">5</div>
+                        <div class="col-md-3">4:15 min</div>
+                        <div class="col-md-6">The Great Gig in the Sky</div>
+                        <button type="button" class="col-md-2 btn btn-primary">
+                            <i class="bi bi-play"></i> Play
+                        </button>
+                    </div>
 
-            <div class="border border-primary row m-1 song align-items-center">
-                <div class="col-md-1">5</div>
-                <div class="col-md-3">4:15 min</div>
-                <div class="col-md-6">The Great Gig in the Sky</div>
-                <button type="button" class="col-md-2 btn btn-primary">
-                    <i class="bi bi-play"></i> Play
-                </button>
-            </div>
+                    <div class="border border-primary row m-1 song align-items-center">
+                        <div class="col-md-1">6</div>
+                        <div class="col-md-3">6:30 min</div>
+                        <div class="col-md-6">Money </div>
+                        <button type="button" class="col-md-2 btn btn-primary">
+                            <i class="bi bi-play"></i> Play
+                        </button>
+                    </div>
 
-            <div class="border border-primary row m-1 song align-items-center">
-                <div class="col-md-1">6</div>
-                <div class="col-md-3">6:30 min</div>
-                <div class="col-md-6">Money </div>
-                <button type="button" class="col-md-2 btn btn-primary">
-                    <i class="bi bi-play"></i> Play
-                </button>
-            </div>
-            <div class="border border-primary row m-1 song align-items-center">
-                <div class="col-md-1">6</div>
-                <div class="col-md-3">6:30 min</div>
-                <div class="col-md-6">Money </div>
-                <button type="button" class="col-md-2 btn btn-primary">
-                    <i class="bi bi-play"></i> Play
-                </button>
-            </div>
+                    <div class="border border-primary row m-1 song align-items-center">
+                        <div class="col-md-1">6</div>
+                        <div class="col-md-3">6:30 min</div>
+                        <div class="col-md-6">Money </div>
+                        <button type="button" class="col-md-2 btn btn-primary">
+                            <i class="bi bi-play"></i> Play
+                        </button>
+                    </div>
 
-            <div class="border border-primary row m-1 song align-items-center">
-                <div class="col-md-1">7</div>
-                <div class="col-md-3">7:49 min</div>
-                <div class="col-md-6">Us and Them </div>
-                <button type="button" class="col-md-2 btn btn-primary">
-                    <i class="bi bi-play"></i> Play
-                </button>
-            </div>
-            <div class="border border-primary row m-1 song align-items-center">
-                <div class="col-md-1">8</div>
-                <div class="col-md-3">3:24 min</div>
-                <div class="col-md-6">Any Colour You Like </div>
-                <button type="button" class="col-md-2 btn btn-primary">
-                    <i class="bi bi-play"></i> Play
-                </button>
-            </div>
-            <div class="border border-primary row m-1 song align-items-center">
-                <div class="col-md-1">9</div>
-                <div class="col-md-3">3:50 min</div>
-                <div class="col-md-6">Brain Damage </div>
-                <button type="button" class="col-md-2 btn btn-primary">
-                    <i class="bi bi-play"></i> Play
-                </button>
-            </div>
-            <div class="border border-primary row m-1 song align-items-center">
-                <div class="col-md-1">10</div>
-                <div class="col-md-3">1:45 min</div>
-                <div class="col-md-6">Eclipse </div>
-                <button type="button" class="col-md-2 btn btn-primary">
-                    <i class="bi bi-play"></i> Play
-                </button>
-            </div>
+                    <div class="border border-primary row m-1 song align-items-center">
+                        <div class="col-md-1">7</div>
+                        <div class="col-md-3">7:49 min</div>
+                        <div class="col-md-6">Us and Them </div>
+                        <button type="button" class="col-md-2 btn btn-primary">
+                            <i class="bi bi-play"></i> Play
+                        </button>
+                    </div>
 
+                    <div class="border border-primary row m-1 song align-items-center">
+                        <div class="col-md-1">8</div>
+                        <div class="col-md-3">3:24 min</div>
+                        <div class="col-md-6">Any Colour You Like </div>
+                        <button type="button" class="col-md-2 btn btn-primary">
+                            <i class="bi bi-play"></i> Play
+                        </button>
+                    </div>
 
-    </div>
-    </footer>
-    </main>
+                    <div class="border border-primary row m-1 song align-items-center">
+                        <div class="col-md-1">9</div>
+                        <div class="col-md-3">3:50 min</div>
+                        <div class="col-md-6">Brain Damage </div>
+                        <button type="button" class="col-md-2 btn btn-primary">
+                            <i class="bi bi-play"></i> Play
+                        </button>
+                    </div>
+
+                    <div class="border border-primary row m-1 song align-items-center">
+                        <div class="col-md-1">10</div>
+                        <div class="col-md-3">1:45 min</div>
+                        <div class="col-md-6">Eclipse </div>
+                        <button type="button" class="col-md-2 btn btn-primary">
+                            <i class="bi bi-play"></i> Play
+                        </button>
+                    </div>
+                </footer>
+        </main>
     </div>
 
     <script>
-        // Codice JavaScript
-
-        // Ottieni tutti i pulsanti "play" con la classe "playButton"
         const playButtons = document.querySelectorAll(".playButton");
 
-        // Aggiungi un gestore di eventi a ciascun pulsante "play"
         playButtons.forEach(function (playButton) {
             playButton.addEventListener("click", function () {
-                // Ottieni il riferimento alla sezione "footer" corrispondente
                 const footerSection = document.getElementById("footerSection");
-                // Rimuovi la classe "d-none" per mostrare la sezione "footer"
                 footerSection.classList.remove("d-none");
+                footerSection.scrollIntoView();
             });
         });
 
-        // Ottieni il pulsante "Close Player"
         const closePlayerButton = document.getElementById("closePlayerButton");
 
-        // Aggiungi un gestore di eventi al pulsante "Close Player"
         closePlayerButton.addEventListener("click", function () {
-            // Ottieni il riferimento alla sezione "footer"
             const footerSection = document.getElementById("footerSection");
-            // Aggiungi la classe "d-none" per nascondere la sezione "footer"
             footerSection.classList.add("d-none");
         });
+
     </script>
 
 </body>
